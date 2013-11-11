@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <!--Project was exported from assembly: C:\Dropbox\MEPhI\Optimization_methods\Одном\Mephi.K22.LearningSuite.OneDSearch.Base.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{006A206F-E047-4556-B01C-38F527D896EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Mephi.K22.LearningSuite.OneDSearch.Base</AssemblyName>
+    <ApplicationVersion>0.1.0.0</ApplicationVersion>
+    <RootNamespace>Mephi.K22.LearningSuite.OneDSearch.Base</RootNamespace>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="Mephi.K22.LearningSuite.Core">
+      <HintPath>lib\Mephi.K22.LearningSuite.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="DevExpress.XtraGrid.v6.2">
+      <HintPath>lib\DevExpress.XtraGrid.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v6.2">
+      <HintPath>lib\DevExpress.Data.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v6.2">
+      <HintPath>lib\DevExpress.XtraEditors.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v6.2">
+      <HintPath>lib\DevExpress.Utils.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionTypes.cs" />
+    <Compile Include="BaseGraphControl.cs" />
+    <Compile Include="PointCoord.cs" />
+    <Compile Include="PointViewer.cs" />
+    <Compile Include="SegmentLength.cs" />
+    <Compile Include="SegmentNumFib.cs" />
+    <Compile Include="SegmentViewer.cs" />
+    <Compile Include="FictiveFuncValue.cs" />
+    <Compile Include="DrawElement.cs" />
+    <Compile Include="DrawAxis.cs" />
+    <Compile Include="DrawButton.cs" />
+    <Compile Include="DrawElementCollection.cs" />
+    <Compile Include="DrawFuncButton.cs" />
+    <Compile Include="DrawPallet.cs" />
+    <Compile Include="DrawPoint.cs" />
+    <Compile Include="DrawResultSegment.cs" />
+    <Compile Include="DrawSegment.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="BasePoint.cs" />
+    <Compile Include="Direction.cs" />
+    <Compile Include="Diskrete.cs" />
+    <Compile Include="ElementCollection.cs" />
+    <Compile Include="FuncButton.cs" />
+    <Compile Include="FuncButtonCollection.cs" />
+    <Compile Include="Point.cs" />
+    <Compile Include="PointCollection.cs" />
+    <Compile Include="PointSaveStub.cs" />
+    <Compile Include="ResultSegment.cs" />
+    <Compile Include="Segment.cs" />
+    <Compile Include="SegmentCollection.cs" />
+    <Compile Include="BaseSeacrhTaskObject.cs" />
+    <Compile Include="DihTaskObject.cs" />
+    <Compile Include="DiskTaskObject.cs" />
+    <Compile Include="ScanTaskObject.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Fibonacci.cs" />
+    <Compile Include="Paul.cs" />
+    <Compile Include="PointValue.cs" />
+    <Compile Include="PointValueCollection.cs" />
+    <Compile Include="ResultType.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BaseGraphControl.resx" />
+    <EmbeddedResource Include="dll.licenses" />
+    <EmbeddedResource Include="FictiveFuncValue.resx" />
+    <EmbeddedResource Include="PointCoord.resx" />
+    <EmbeddedResource Include="PointViewer.resx" />
+    <EmbeddedResource Include="SegmentLength.resx" />
+    <EmbeddedResource Include="SegmentNumFib.resx" />
+    <EmbeddedResource Include="SegmentViewer.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

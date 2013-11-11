@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <!--Project was exported from assembly: C:\Dropbox\MEPhI\Optimization_methods\Одном\Mephi.K22.LearningSuite.Core.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13F13940-E80D-4175-9443-A2CD1D15D175}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Mephi.K22.LearningSuite.Core</AssemblyName>
+    <ApplicationVersion>0.1.3236.13212</ApplicationVersion>
+    <RootNamespace>Mephi.K22.LearningSuite.Core</RootNamespace>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="DevExpress.Data.v6.2">
+      <HintPath>lib\DevExpress.Data.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v6.2">
+      <HintPath>lib\DevExpress.XtraGrid.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v6.2">
+      <HintPath>lib\DevExpress.XtraEditors.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="DevExpress.XtraTreeList.v6.2">
+      <HintPath>lib\DevExpress.XtraTreeList.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="DevExpress.Utils.v6.2">
+      <HintPath>lib\DevExpress.Utils.v6.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action.cs" />
+    <Compile Include="ActionCollection.cs" />
+    <Compile Include="ActionResult.cs" />
+    <Compile Include="TaskAssemblyAttribute.cs" />
+    <Compile Include="TaskClassAttribute.cs" />
+    <Compile Include="TaskCreateEntryPointAttribute.cs" />
+    <Compile Include="TaskExecEntryPointAttribute.cs" />
+    <Compile Include="ActionViewer.cs" />
+    <Compile Include="BaseContainerForm.cs" />
+    <Compile Include="BaseControl.cs" />
+    <Compile Include="BaseDetailForm.cs" />
+    <Compile Include="BaseFilterControl.cs" />
+    <Compile Include="BaseGridControl.cs" />
+    <Compile Include="BaseMethodControl.cs" />
+    <Compile Include="BaseTaskObjectControl.cs" />
+    <Compile Include="BaseTaskObjectForm.cs" />
+    <Compile Include="BaseTreeListControl.cs" />
+    <Compile Include="DictionaryButton.cs" />
+    <Compile Include="DictionaryDialogForm.cs" />
+    <Compile Include="pnlgrph.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="ErrorCollection.cs" />
+    <Compile Include="UnhandledException.cs" />
+    <Compile Include="Function.cs" />
+    <Compile Include="FunctionTestResult.cs" />
+    <Compile Include="MethodInfo.cs" />
+    <Compile Include="MethodInfoCollection.cs" />
+    <Compile Include="ThemeMethodCollection.cs" />
+    <Compile Include="Retry.cs" />
+    <Compile Include="RetryCollection.cs" />
+    <Compile Include="Task.cs" />
+    <Compile Include="TaskCollection.cs" />
+    <Compile Include="BaseTaskObject.cs" />
+    <Compile Include="Variant.cs" />
+    <Compile Include="VariantCollection.cs" />
+    <Compile Include="Work.cs" />
+    <Compile Include="AccuracyType.cs" />
+    <Compile Include="ControlMode.cs" />
+    <Compile Include="CustomView.cs" />
+    <Compile Include="ExtremumType.cs" />
+    <Compile Include="ICheck.cs" />
+    <Compile Include="MethodControlLoader.cs" />
+    <Compile Include="RunMode.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ActionViewer.resx" />
+    <EmbeddedResource Include="BaseContainerForm.resx" />
+    <EmbeddedResource Include="BaseControl.resx" />
+    <EmbeddedResource Include="BaseDetailForm.resx" />
+    <EmbeddedResource Include="BaseFilterControl.resx" />
+    <EmbeddedResource Include="BaseGridControl.resx" />
+    <EmbeddedResource Include="BaseTaskObjectControl.resx" />
+    <EmbeddedResource Include="BaseTaskObjectForm.resx" />
+    <EmbeddedResource Include="BaseTreeListControl.resx" />
+    <EmbeddedResource Include="Controls\BaseMethodControl.resx" />
+    <EmbeddedResource Include="DictionaryButton.resx" />
+    <EmbeddedResource Include="DictionaryDialogForm.resx" />
+    <EmbeddedResource Include="dll.licenses" />
+    <EmbeddedResource Include="FunctionTestResult.resx" />
+    <EmbeddedResource Include="pnlgrph.resx" />
+    <EmbeddedResource Include="UnhandledException.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

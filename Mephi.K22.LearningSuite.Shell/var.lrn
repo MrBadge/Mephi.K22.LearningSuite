@@ -1,0 +1,59 @@
+﻿f80a043d-01dd-47a5-849a-3817ec62033a
+Одномерный поиск
+97869b85-f135-422e-9322-0b4d188d6ab4
+1
+6
+Mephi.K22.LearningSuite.OneDSearch, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+FibSearch
+Фибоначчи
+Init
+GetTaskObject
+Фб1. Найти экстремум унимодальной функции на заданном интервале методом Фибоначчи.
+30
+42bd3fee-1b27-4e63-9e6a-3c586773326f
+<task><assName>Mephi.K22.LearningSuite.OneDSearch.Base, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</assName><type>Mephi.K22.LearningSuite.OneDSearch.Base.DihTaskObject</type><name>Фб1. Найти экстремум унимодальной функции на заданном интервале методом Фибоначчи.</name><left>1</left><right>6</right><funcText>(x[0]-2.5)*(x[0]-6.3)/2</funcText><eps>0.5</eps><extType>min</extType><stopType>precise</stopType><maxSteps>0</maxSteps></task>
+Mephi.K22.LearningSuite.OneDSearch, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+PaulSearch
+Пауэлл
+Init
+GetTaskObject
+П2. Найти экстремум функции.
+30
+9a45ebd0-7980-4db7-9f2b-5bbb313f3fd8
+<task><assName>Mephi.K22.LearningSuite.OneDSearch.Base, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</assName><type>Mephi.K22.LearningSuite.OneDSearch.Base.DihTaskObject</type><name>П2. Найти экстремум функции.</name><left>0</left><right>0</right><funcText>(x[0]*0.5-1)*(x[0]*1.5-5)/2</funcText><eps>0.4</eps><extType>min</extType><stopType>precise</stopType><maxSteps>0</maxSteps></task>
+Mephi.K22.LearningSuite.OneDSearch, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+DihSearch
+Дихотомия
+Init
+GetTaskObject
+Дх4. Выполнить 3 шага поиска экстремума унимодальной функции на заданном интервале методом дихотомии.
+30
+6aeef721-2a55-4493-becb-5d2af53db064
+<task><assName>Mephi.K22.LearningSuite.OneDSearch.Base, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</assName><type>Mephi.K22.LearningSuite.OneDSearch.Base.DihTaskObject</type><name>Дх4. Выполнить 3 шага поиска экстремума унимодальной функции на заданном интервале методом дихотомии.</name><left>1</left><right>10</right><funcText>Math.Abs(x[0]-4.5)-3.2</funcText><eps>1</eps><extType>min</extType><stopType>steps</stopType><maxSteps>3</maxSteps></task>
+Mephi.K22.LearningSuite.OneDSearch, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+DiskSearch
+Дискреты
+Init
+GetTaskObject
+Дк1. Найти минимум функции, которая определена в дискретных точках, на заданном интервале.
+30
+754b4623-fee5-48f6-a7fe-8d9400254305
+<task><assName>Mephi.K22.LearningSuite.OneDSearch.Base, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</assName><type>Mephi.K22.LearningSuite.OneDSearch.Base.DiskTaskObject</type><name>Дк1. Найти минимум функции, которая определена в дискретных точках, на заданном интервале.</name><left>1</left><right>10</right><funcText>Math.Abs(x[0]-2.3)/2-1.34</funcText><points><point>2.5</point><point>4.2</point><point>1.3</point><point>5</point><point>7.2</point></points><extType>min</extType></task>
+Mephi.K22.LearningSuite.OneDSearch, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+ScanSearch
+Сканирование
+Init
+GetTaskObject
+C1. Найти минимум унимодальной функции на интервале методом сканирования.
+30
+477af1fe-5aec-4590-8e5a-df10efb06b02
+<task><assName>Mephi.K22.LearningSuite.OneDSearch.Base, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</assName><type>Mephi.K22.LearningSuite.OneDSearch.Base.ScanTaskObject</type><name>C1. Найти минимум унимодальной функции на интервале методом сканирования.</name><left>2</left><right>8</right><funcText>Math.Abs(x[0]-5.3)-1</funcText><eps>1</eps><extType>min</extType></task>
+Mephi.K22.LearningSuite.OneDSearch, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+GoldSearch
+Золотое сечение
+Init
+GetTaskObject
+З1. Найти минимум функции методом золотого сечения.
+30
+f8bd00fc-62ab-4179-813d-e5748103eecd
+<task><assName>Mephi.K22.LearningSuite.OneDSearch.Base, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</assName><type>Mephi.K22.LearningSuite.OneDSearch.Base.DihTaskObject</type><name>З1. Найти минимум функции методом золотого сечения.</name><left>1</left><right>6</right><funcText>Math.Abs(x[0]-3.214)-1</funcText><eps>1</eps><extType>min</extType><stopType>steps</stopType><maxSteps>2</maxSteps></task>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <!--Project was exported from assembly: C:\Dropbox\MEPhI\Optimization_methods\Одном\Mephi.K22.LearningSuite.Shell.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4FDABDC0-D1FD-41DA-84A8-D4C6402FF7E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Mephi.K22.LearningSuite.Shell</AssemblyName>
+    <RootNamespace>Mephi.K22.LearningSuite.Shell</RootNamespace>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.1.3236.13214</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Mephi_32512.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v6.2, Version=6.2.2.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\DevExpress.Data.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v6.2, Version=6.2.2.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\DevExpress.Utils.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v6.2, Version=6.2.2.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\DevExpress.XtraEditors.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v6.2, Version=6.2.2.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\DevExpress.XtraGrid.v6.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.Core, Version=0.1.3236.13212, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Mephi.K22.LearningSuite.Core\bin\Debug\Mephi.K22.LearningSuite.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.DbAccess">
+      <HintPath>..\Mephi.K22.LearningSuite.DbAccess\bin\Debug\Mephi.K22.LearningSuite.DbAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.InterOp.Core">
+      <HintPath>..\Mephi.K22.LearningSuite.InterOp.Core\bin\Debug\Mephi.K22.LearningSuite.InterOp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.InterOp.Server">
+      <HintPath>..\Mephi.K22.LearningSuite.InterOp.Server\bin\Debug\Mephi.K22.LearningSuite.InterOp.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.InterOp.Shell, Version=0.1.3236.13213, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Mephi.K22.LearningSuite.InterOp.Shell\bin\Debug\Mephi.K22.LearningSuite.InterOp.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.OneDSearch">
+      <HintPath>..\Mephi.K22.LearningSuite.OneDSearch\bin\Debug\Mephi.K22.LearningSuite.OneDSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.OneDSearch.Base">
+      <HintPath>..\Mephi.K22.LearningSuite.OneDSearch.Base\bin\Debug\Mephi.K22.LearningSuite.OneDSearch.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.Transport.FF">
+      <HintPath>..\Mephi.K22.LearningSuite.Transport.FF\bin\Debug\Mephi.K22.LearningSuite.Transport.FF.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.Transport.FF.Base">
+      <HintPath>..\Mephi.K22.LearningSuite.Transport.FF.Base\bin\Debug\Mephi.K22.LearningSuite.Transport.FF.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.Transport.Hung">
+      <HintPath>..\Mephi.K22.LearningSuite.Transport.Hung\bin\Debug\Mephi.K22.LearningSuite.Transport.Hung.dll</HintPath>
+    </Reference>
+    <Reference Include="Mephi.K22.LearningSuite.Transport.Hung.Base">
+      <HintPath>..\Mephi.K22.LearningSuite.Transport.Hung.Base\bin\Debug\Mephi.K22.LearningSuite.Transport.Hung.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssWorkControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Protocol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationMain.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AssWork.resx" />
+    <EmbeddedResource Include="AssWorkControl.resx" />
+    <EmbeddedResource Include="exe.licenses" />
+    <EmbeddedResource Include="Login.resx" />
+    <EmbeddedResource Include="Protocol.resx" />
+    <EmbeddedResource Include="TaskSelector.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mephi_32512.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

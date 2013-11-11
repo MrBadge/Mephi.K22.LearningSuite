@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <!--Project was exported from assembly: C:\Dropbox\MEPhI\Optimization_methods\Одном\Mephi.K22.LearningSuite.Transport.FF.Base.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{083F6E91-0889-433D-BBB8-80E78AF80B2D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Mephi.K22.LearningSuite.Transport.FF.Base</AssemblyName>
+    <RootNamespace>Mephi.K22.LearningSuite.Transport.FF.Base</RootNamespace>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.0.0</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mephi.K22.LearningSuite.Core">
+      <HintPath>..\Mephi.K22.LearningSuite.Core\bin\Debug\Mephi.K22.LearningSuite.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddArc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseNetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SetFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetResultFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetSourceTarget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DrawElement.cs" />
+    <Compile Include="DrawArc.cs" />
+    <Compile Include="DrawElementCollection.cs" />
+    <Compile Include="DrawNode.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="Arc.cs" />
+    <Compile Include="ElementCollection.cs" />
+    <Compile Include="ArcCollection.cs" />
+    <Compile Include="ArcNode.cs" />
+    <Compile Include="Net.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="NodeCollection.cs" />
+    <Compile Include="ShowNetTaskObject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ActionTypes.cs" />
+    <Compile Include="TransportTaskObject.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddArc.resx" />
+    <EmbeddedResource Include="BaseNetControl.resx" />
+    <EmbeddedResource Include="SetFlow.resx" />
+    <EmbeddedResource Include="SetMark.resx" />
+    <EmbeddedResource Include="SetResultFrm.resx" />
+    <EmbeddedResource Include="SetSourceTarget.resx" />
+    <EmbeddedResource Include="ShowNetTaskObject.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 с пакетом обновления 1 %28SP1%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
